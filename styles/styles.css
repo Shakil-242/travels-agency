@@ -156,7 +156,59 @@ header, main{
     align-items: center;
 }
 /* Choose Your Destination Styles */
+.choose-your-destination-section{
+    margin-top:100px;
+}
+.choose-your-content{
+ text-align: center;
+}
+.destination-description{
+    width:80%;
+    margin:0px auto;
+    margin-top:24px;
+}
+.maldives-indonesia-container{
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    
+}
+.common img{
+    width: 100%;
+    height: auto;
+    
+}
 
+
+.maldives{
+    position: relative;
+    
+}
+.title{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.common-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+.srilanka-north-america-kashmir{
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, auto 1fr auto);
+    gap: 24px;
+}
+.bangladesh-bandarban{
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, auto 1fr);
+    gap: 24px;
+}
 
 /* why-choose-us- styles */
 .why-choose-us-container{
