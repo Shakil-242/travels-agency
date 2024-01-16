@@ -276,4 +276,8 @@
     grid-template-columns: 1fr;
     gap: 16px;
 }
+.common img{
+    width: 100%;
+    
+}
 }
