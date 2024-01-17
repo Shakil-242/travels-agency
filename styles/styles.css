@@ -41,9 +41,6 @@ header, main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
-    
 }
 .logo-title{
     color: #131318;
@@ -97,51 +94,47 @@ header, main{
 .form-content{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    padding:16px;
-    display: flex;
-    gap:24px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     align-items: center;
+    padding:20px;
+    gap:10px
 }
-.form-content .where-go input[type="text"]{
-    width: 150px;
+.where-go input{
+    width:100%;
+    border: 2px solid greenyellow;
     border-radius: 8px;
     background: #FFF;
+    padding:16px;
     border:none;
-    outline:none;
-    padding:15px;
+    outline: none;
 }
-.form-content .where-go input[type="text"]:focus{
+.when select{
+    width:100%;
+    border: 2px solid greenyellow;
     border-radius: 8px;
+    background: #FFF; 
+    padding:16px; 
+    border:none; 
+}
+.select-type select{
+    width:100%;
+    border-radius: 8px;
+    background: #FFF; 
+    padding:16px; 
     border:none;
-    outline:none;
 }
-.form-content .when select{
-    width: 150px;
+.primary-btn{
+    width:100%;
     border-radius: 8px;
-    background: #FFF;
-    border:none;
-    outline:none;
-    padding:15px;
-}
-.form-content .select-type select{
-    width: 150px;
-    border-radius: 8px;
-    background: #FFF;
-    border:none;
-    outline:none;
-    padding:15px;
-}
-.form-content .primary-btn{
-    width: 150px;
-    border-radius: 8px;
-    background: #FF5400;
+    background:#FF5400;  
+    padding:16px;
     color: #FFF;
     font-size: 16px;
     font-weight: 700;
-    padding: 15px;
-    border: none;
-    cursor:pointer;
+    border:none;
+    cursor: pointer;
 }
 .form-content .primary-btn .fa-magnifying-glass::after { 
     content: "";
@@ -174,9 +167,6 @@ header, main{
     gap: 24px;
     
 }
-
-
-
 .maldives{
     position: relative;
     
@@ -263,12 +253,21 @@ header, main{
     color: #5A5A5D;
 }
 /* Best Travel Agency Section Design */
+
 .best-travel-agency-section{
     margin-top: 100px;
 }
 .best-travel-content{
     text-align: center;
 }
+.best-desc{
+    width:50%;
+    margin:0 auto;
+    margin-top:24px;
+    margin-bottom: 24px;
+}
+
+
 .best-travel-container{
     display: flex;
     gap:50px;
@@ -524,8 +523,7 @@ header, main{
     font-weight: 800;
 }
 .save-to-up-70{
-    width: 300px;
-    height: 100px;
+    max-width: 55%;
     background-color: #FF5400;
     display: flex;
     justify-content: center;
@@ -537,8 +535,8 @@ header, main{
     border-radius: 16px;
     transform: rotate(-35deg);
     position:absolute;
-    bottom:75px;
-    left:263px;
+    bottom:21%;
+    left:47%;
 
 }
 
